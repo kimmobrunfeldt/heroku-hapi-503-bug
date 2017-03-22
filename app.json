@@ -1,0 +1,6 @@
+{
+  "name": "Heroku Hapi 503 bug",
+  "description": "Reproducable test case",
+  "repository": "https://github.com/kimmobrunfeldt/heroku-hapi-503-bug",
+  "keywords": ["node"]
+}
