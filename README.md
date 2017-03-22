@@ -15,6 +15,9 @@ the request is the same all the time.
 curl -d'a' https://heroku-hapi-503-bug.herokuapp.com
 ```
 
+**With the exact same commands, sometimes you get normal response, sometimes
+503 Application Error, with reason "Server Request Interrupted".**
+
 ## Deploy
 
 * Create a Heroku app
