@@ -18,11 +18,11 @@ curl -d'a' https://heroku-hapi-503-bug.herokuapp.com
 ## Deploy
 
 * Create a Heroku app
-* Push this repo to Heroku with `bug-503-test-service` as app name.
+* Push this repo to Heroku with `heroku-hapi-503-bug` as app name.
 * Run the command above
 
 ### Testing commands
 
 ```
-echo -n -e "POST /pong HTTP/1.0\r\nHost: bug-503-test-service.herokuapp.com\r\nx-gw-secret: a\r\nContent-Length: 2\r\n\r\n01" | openssl s_client -ign_eof -connect bug-503-test-service.herokuapp.com:443
+echo -n -e "POST /pong HTTP/1.0\r\nHost: heroku-hapi-503-bug.herokuapp.com\r\nx-gw-secret: a\r\nContent-Length: 2\r\n\r\n01" | openssl s_client -ign_eof -connect heroku-hapi-503-bug.herokuapp.com:443
 ```
