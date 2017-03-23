@@ -7,5 +7,5 @@ do
   echo "$resp"
 
   x=$(( $x + 1 ))
-  resp=$(curl -d 'a' https://hapi-test-service-fldxoyfywv.now.sh)
+  resp=$(curl -d 'a' https://hapi-test-service-vmtklrbrww.now.sh)
 done
